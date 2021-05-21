@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="767" height="578" viewBox="0 0 767 578">
+  <g id="Group_338" data-name="Group 338" transform="translate(-1056 -214)">
+    <rect id="Rectangle_543" data-name="Rectangle 543" width="767" height="48" rx="10" transform="translate(1056 575)" fill="rgba(0,101,179,0.2)"/>
+    <rect id="Rectangle_542" data-name="Rectangle 542" width="767" height="48" rx="10" transform="translate(1056 333)" fill="rgba(0,101,179,0.2)"/>
+    <rect id="Rectangle_541" data-name="Rectangle 541" width="767" height="48" rx="10" transform="translate(1056 214)" fill="rgba(0,101,179,0.2)"/>
+    <text id="Suku_Bunga" data-name="Suku Bunga" transform="translate(1185 250)" fill="#0065b3" font-size="34" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-108.987" y="0">Suku Bunga</tspan></text>
+    <text id="Tabungan_Intidana" data-name="Tabungan Intidana" transform="translate(1192 306)" fill="#0065b3" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-116.172" y="0">Tabungan Intidana</tspan></text>
+    <rect id="Rectangle_544" data-name="Rectangle 544" width="767" height="48" rx="10" transform="translate(1056 694)" fill="rgba(0,101,179,0.2)"/>
+    <text id="_5.0_" data-name="5.0 %" transform="translate(1773 306)" fill="#0065b3" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-30.816" y="0">5.0 %</tspan></text>
+    <text id="Deposito" transform="translate(1156 369)" fill="#0065b3" font-size="34" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-80.019" y="0">Deposito</tspan></text>
+    <text id="_1_Bulan" data-name="1 Bulan" transform="translate(1120 425)" fill="#0065b3" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-43.572" y="0">1 Bulan</tspan></text>
+    <text id="_6_00_" data-name="6,00 %" transform="translate(1804 425)" fill="#0065b3" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-78.912" y="0">6,00 %</tspan></text>
+    <text id="_3_Bulan" data-name="3 Bulan" transform="translate(1122 466)" fill="#0065b3" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-45.996" y="0">3 Bulan</tspan></text>
+    <text id="_6_25_" data-name="6,25 %" transform="translate(1804 466)" fill="#0065b3" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-74.976" y="0">6,25 %</tspan></text>
+    <text id="_6_Bulan" data-name="6 Bulan" transform="translate(1076 507)" fill="#0065b3" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">6 Bulan</tspan></text>
+    <text id="_6_25_2" data-name="6,25 %" transform="translate(1804 507)" fill="#0065b3" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-74.976" y="0">6,25 %</tspan></text>
+    <text id="_12_Bulan" data-name="12 Bulan" transform="translate(1076 548)" fill="#0065b3" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">12 Bulan</tspan></text>
+    <text id="_6_50_" data-name="6,50 %" transform="translate(1804 548)" fill="#0065b3" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-76.968" y="0">6,50 %</tspan></text>
+    <text id="Jam_Kerja" data-name="Jam Kerja" transform="translate(1077 611)" fill="#0065b3" font-size="34" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">Jam Kerja</tspan></text>
+    <text id="Senin-Jumat" transform="translate(1076 667)" fill="#0065b3" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Senin-Jumat</tspan></text>
+    <text id="_08.00-17.00_WIB" data-name="08.00-17.00 WIB" transform="translate(1804 667)" fill="#0065b3" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-195.696" y="0">08.00-17.00 WIB</tspan></text>
+    <text id="Pelayanan_Kas" data-name="Pelayanan Kas" transform="translate(1076 730)" fill="#0065b3" font-size="34" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">Pelayanan Kas</tspan></text>
+    <text id="Senin-Jumat-2" data-name="Senin-Jumat" transform="translate(1076 786)" fill="#0065b3" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Senin-Jumat</tspan></text>
+    <text id="_08.30-15.00_WIB" data-name="08.30-15.00 WIB" transform="translate(1804 786)" fill="#0065b3" font-size="24" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="-194.616" y="0">08.30-15.00 WIB</tspan></text>
+  </g>
+</svg>
