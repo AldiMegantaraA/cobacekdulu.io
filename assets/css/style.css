@@ -95,7 +95,7 @@ div {
   position: fixed;
   display: block;
   right: 68px;
-  bottom: 40px;
+  bottom: 15px;
   z-index: 99999;
 }
 
