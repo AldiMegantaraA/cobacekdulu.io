@@ -33,9 +33,6 @@
 
 <body>
   <style>
-    .info-keuntungan #card p{
-      height: 100px;
-    }
     @media (min-width:769px) {
       #carouselExampleIndicators{
         padding-top: 100px; padding-bottom: 100px;
@@ -43,6 +40,23 @@
       .searchBox{
         left: 0;
         position: relative;
+      }
+      .card-kredit {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      }
+      .card-kredit #card p {
+        height: 140px;
+      }
+      .card-kredit #card h3 {
+        height: 40px;
+      }
+      .card-kredit #card {
+        padding: 20px 12px;
+      }
+      .search-box {
+        margin-top: -12px;
+        margin-right: 2vw;
       }
     }
     @media (max-width:768px) {
@@ -52,6 +66,19 @@
       .searchBox{
         left: 25%;
         position: relative;
+      }
+      .card-kredit {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .card-kredit #card p {
+        height: 100px;
+      }
+      .card-kredit #card h3 {
+        height: 40px;
+      }
+      .card-kredit #card {
+        padding: 10px 12px;
       }
     }
   </style>
@@ -66,6 +93,10 @@
           </button>
         </div>
         <div class="col-lg-8 col-md-12 col-sm-12">
+          <form class="form row search-box" style="float: right;">
+            <input class="form-control col-8" style="border-radius: 20px;" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-danger col-4" style="border-radius: 20px;" type="submit">Search</button>
+          </form>
           <div class="collapse navbar-collapse" style="border: none;" id="navbarTogglerDemo02">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
@@ -125,12 +156,9 @@
             </div>
           </div>
         </div>
-        <form class="form row">
-          <div class="col-2"></div>
-          <input class="form-control col-6" style="border-radius: 20px;" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-danger col-4" style="border-radius: 20px;" type="submit">Search</button>
-        </form>
-    </div>
+        
+        
+      </div>
   </nav>
   <!-- End Header -->
 
@@ -197,12 +225,12 @@
         </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="background-color: #0065B3;  left: 1%;
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev" style="background-color: #0065B3;  float: left;
     height: 24px; width: 24px; top: 50%;">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" style="background-color: #0065B3;  left: 97%;
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next" style="background-color: #0065B3;  float: right;
     height: 24px; width: 24px; top: 50%;">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
@@ -321,7 +349,7 @@
 <div class="container">
    <!-- ========== info service ============================== -->
    <div class="row info-keuntungan" style="text-align: center;">
-    <div class="col-lg-4 col-sm-12" id="card">
+    <div class="col-6" id="card">
       <img src="assets/img/Group 29.svg" alt="">
       <h3>Tabungan</h3>
       <p>Simpanan dengan bunga tinggi 
@@ -330,7 +358,7 @@
         di masa depan.</p>
       <a href="tabungan.html" class="btn-selengkapnya" style="top: 50%;">Selengkapnya</a>
     </div>
-    <div class="col-lg-4 col-sm-12" id="card">
+    <div class="col-6" id="card">
       <img src="assets/img/brangkas.svg" alt="">
       <h3>Deposito</h3>
       <p>Simpanan Berjangka
@@ -339,36 +367,38 @@
         sesuai kebutuhan</p>
       <a href="deposito.html" class="btn-selengkapnya" style="top: 50%;">Selengkapnya</a>
     </div>
-    <div class="col-lg-4 col-sm-12" id="card">
-      <img src="assets/img/Group 38.svg" alt="">
-      <h3>KPR</h3>
-      <p>Kredit yang di peruntukan untuk kepemilikan rumah, kios atau ruko, baik baru maupun lama.</p>
-      <a href="kredit.html" class="btn-selengkapnya" style="top: 50%;">Selengkapnya</a>
-    </div>
-    <div class="col-lg-3 col-sm-12" id="card">
-      <img src="assets/img/Group 44.svg" alt="">
-      <h3>KPM</h3>
-      <p>Kredit yang di peruntukan untuk pembelian mobil.</p>
-      <a href="kredit.html" class="btn-selengkapnya" style="top: 50%;">Selengkapnya</a>
-    </div>
-    <div class="col-lg-3 col-sm-12" id="card">
-      <img src="assets/img/Group 40.svg" alt="">
-      <h3>Kredit Modal Kerja</h3>
-      <p>Kredit yang diberikan untuk membiayai keperluan modal kerja.</p>
-      <a href="kredit.html" class="btn-selengkapnya" style="top: 50%;">Selengkapnya</a>
-    </div>
-    <div class="col-lg-3 col-sm-12" id="card">
-      <img src="assets/img/Group 42.svg" alt="">
-      <h3>Kredit Investasi</h3>
-      <p>Kredit yang di peruntukan untuk pembelian barang – barang modal dan jasa yang di perlukan
-           guna rehabilitasi, dll.</p>
-      <a href="kredit.html" class="btn-selengkapnya" style="top: 50%;">Selengkapnya</a>
-    </div>
-    <div class="col-lg-3 col-sm-12" id="card">
-      <img src="assets/img/Wallet-amico.svg" alt="">
-      <h3>Kredit Multiguna Dan lainnya</h3>
-      <p>Kredit yang dananya dapat dimanfaatkan untuk memenuhi berbagai macam kebutuhan konsumtif/usaha.</p>
-      <a href="kredit.html" class="btn-selengkapnya" style="top: 50%;">Selengkapnya</a>
+    <div class="col-12 card-kredit" style="width: 100%; justify-content: center;align-items: center;">
+      <div id="card">
+        <img src="assets/img/Group 38.svg" alt="">
+        <h3>KPR</h3>
+        <p>Kredit yang di peruntukan untuk kepemilikan rumah, kios atau ruko, baik baru maupun lama.</p>
+        <a href="kredit.html" class="btn-selengkapnya">Selengkapnya</a>
+      </div>
+      <div id="card">
+        <img src="assets/img/Group 44.svg" alt="">
+        <h3>KPM</h3>
+        <p>Kredit yang di peruntukan untuk pembelian mobil.</p>
+        <a href="kredit.html" class="btn-selengkapnya">Selengkapnya</a>
+      </div>
+      <div id="card">
+        <img src="assets/img/Group 40.svg" alt="">
+        <h3>Kredit Modal Kerja</h3>
+        <p>Kredit yang diberikan untuk membiayai keperluan modal kerja.</p>
+        <a href="kredit.html" class="btn-selengkapnya">Selengkapnya</a>
+      </div>
+      <div id="card">
+        <img src="assets/img/Group 42.svg" alt="">
+        <h3>Kredit Investasi</h3>
+        <p>Kredit yang di peruntukan untuk pembelian barang – barang modal dan jasa yang di perlukan
+            guna rehabilitasi, dll.</p>
+        <a href="kredit.html" class="btn-selengkapnya">Selengkapnya</a>
+      </div>
+      <div id="card">
+        <img src="assets/img/Wallet-amico.svg" alt="">
+        <h3>Kredit Multiguna dan lainnya</h3>
+        <p>Kredit yang dananya dapat dimanfaatkan untuk memenuhi berbagai macam kebutuhan konsumtif/usaha.</p>
+        <a href="kredit.html" class="btn-selengkapnya">Selengkapnya</a>
+      </div>
     </div>
     <div class="col-12" style="margin-top: 60px;">
       <h4 class="col-12" style="margin-bottom: 40px;">Ingin mengetahui produk kami lebih lanjut?</h4>
